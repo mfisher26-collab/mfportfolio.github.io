@@ -22,6 +22,7 @@ if (document.getElementById('articlesContainer')) {
                         ${article.title}
                     </a>
                 </h3>
+                ${article.publication ? `<p class="article-publication">${article.publication}</p>` : ''}
                 <p class="article-description">${article.description}</p>
             </div>
         `).join('');
