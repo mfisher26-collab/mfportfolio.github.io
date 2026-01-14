@@ -184,6 +184,46 @@ body {
     transform: scale(1.02);
 }
 
+.contact-links {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.contact-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background: linear-gradient(135deg, var(--primary-color) 0%, #61a5c2 100%);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+    box-shadow: var(--shadow-sm);
+    position: relative;
+    z-index: 2;
+}
+
+.contact-link:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+    background: linear-gradient(135deg, #61a5c2 0%, var(--primary-color) 100%);
+}
+
+.contact-link:active {
+    transform: translateY(0);
+}
+
+.contact-icon {
+    font-size: 1.1rem;
+}
+
 .profile-content {
     flex: 1;
     position: relative;
@@ -525,6 +565,16 @@ html {
     .profile-image {
         width: 200px;
         height: 200px;
+    }
+
+    .contact-links {
+        margin-top: 1rem;
+        width: 200px;
+    }
+
+    .contact-link {
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
     }
 
     .profile-name {
