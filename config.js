@@ -61,7 +61,7 @@ const articles = [
         publication: "The Amherst Student",
         url: "https://https://amherststudent.com/article/local-lookout-antonios-pizza/",
         description: "Looking into how a town favorite establishment handles the late-night rush.",
-        image: "article_imgs/articleX.jpg"
+        image: "article_imgs/article 7.png"
     }, 
     
         
