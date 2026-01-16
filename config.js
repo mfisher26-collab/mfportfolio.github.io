@@ -60,14 +60,14 @@ const articles = [
         title: "Local Lookout: Antonio’s Pizza",
         publication: "The Amherst Student",
         url: "https://amherststudent.com/article/local-lookout-antonios-pizza/",
-        description: "Looking into how a town favorite establishment handles the late-night rush.",
+        description: "Looking into how a town favorite establishment handles the late-night rush and the role it plays in the local community.",
         image: "article_imgs/article 7.png"
     }, 
     { 
         title: "Tandem Bagels To Return to Val Once a Month",
         publication: "The Amherst Student",
         url: "https://amherststudent.com/article/tandem-bagels-to-return-to-val-once-a-month/",
-        description: "Investigating the changes in a controversial Dining Hall Policy",
+        description: "Investigating the changes in a controversial Dining Hall Policy as students voice their complaints.",
         image: "article_imgs/Article8.jpg"
     }, 
     
